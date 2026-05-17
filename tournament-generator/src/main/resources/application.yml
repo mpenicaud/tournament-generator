@@ -1,0 +1,11 @@
+spring:
+  application:
+     name: tournament-generator
+  datasource:
+    url: jdbc:sqlite:/home/mpenicaud/database/tournament_generator.db
+    driver-class-name: org.sqlite.JDBC
+    
+  jpa:
+      database-platform: org.hibernate.community.dialect.SQLiteDialect
+      hibernate:
+        ddl-auto: update
